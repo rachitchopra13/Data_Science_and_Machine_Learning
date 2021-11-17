@@ -1,0 +1,78 @@
+                       EBIT           TEV  EarningYield  FCFYield        ROC     BookToMkt  DivYield
+TRENT.NS      -8.272000e+08  4.373211e+11     -0.001892  0.011884  -0.034549  1.540514e-10    0.0005
+TATACOFFEE.NS  3.118530e+09  4.839352e+10      0.064441  0.078518   5.768529  1.790029e-09    0.0067
+TCS.NS         4.248200e+11  1.275273e+13      0.033312  0.031871  -3.464525  2.011969e-11    0.0079
+TATAMOTORS.NS  8.926710e+10  1.773544e+12      0.050333  0.213375  -0.157166  7.550560e-11       NaN
+INDHOTEL.NS   -6.596500e+09  3.006021e+11     -0.021944 -0.003900  -0.145139  1.032709e-10    0.0018
+TATACHEM.NS    8.115500e+09  2.730252e+11      0.029724  0.136717   0.338693  2.677828e-09    0.0107
+TATASTLLP.NS   7.868000e+09           NaN           NaN  0.484954   0.335065  1.610349e-08    0.0061
+TATAINVEST.NS  1.427728e+09  7.809785e+10      0.018281  0.010981  59.323056  4.555089e-08    0.0155
+NELCO.NS       2.283000e+08           NaN           NaN  0.036761  -1.196541  2.048023e-09    0.0015
+TITAN.NS       1.386000e+10  2.194838e+12      0.006315  0.019311  -0.305893  3.948690e-11    0.0016
+TATAMETALI.NS  3.234532e+09           NaN           NaN  0.142986   0.551383  1.530385e-08    0.0042
+TATAELXSI.NS   4.780334e+09           NaN           NaN  0.011595  -5.214925  5.046856e-10    0.0036
+VOLTAS.NS      6.557400e+09  3.760355e+11      0.017438  0.014113  -0.217909  3.788872e-10    0.0041
+TATAPOWER.NS   4.248710e+10  1.000990e+12      0.042445  0.147697   0.190762  8.510668e-11    0.0063
+TATACONSUM.NS  1.283470e+10  7.614535e+11      0.016856  0.024221  -0.995942  2.055288e-10    0.0049
+TATACOMM.NS    1.946730e+10  3.759987e+11      0.051775  0.127832   0.704819  2.339463e-11    0.0116
+TATASTEEL.NS   1.949431e+11  1.554541e+12      0.125402  0.343681   0.243347  5.100720e-10    0.0203
+------------------------------------------------
+Value stocks based on Greenblatt's Magic Formula
+               EarningYield        ROC  MagicFormulaRank
+TATACOFFEE.NS      0.064441   5.768529               1.0
+TATACOMM.NS        0.051775   0.704819               2.0
+TATASTEEL.NS       0.125402   0.243347               3.0
+TATAINVEST.NS      0.018281  59.323056               4.0
+TATACHEM.NS        0.029724   0.338693               5.0
+TATAPOWER.NS       0.042445   0.190762               6.0
+TATAMOTORS.NS      0.050333  -0.157166               7.0
+TATAMETALI.NS           NaN   0.551383               8.0
+TRENT.NS          -0.001892  -0.034549               9.0
+VOLTAS.NS          0.017438  -0.217909              10.0
+TATASTLLP.NS            NaN   0.335065              11.0
+TCS.NS             0.033312  -3.464525              12.0
+INDHOTEL.NS       -0.021944  -0.145139              13.0
+TITAN.NS           0.006315  -0.305893              14.0
+TATACONSUM.NS      0.016856  -0.995942              15.0
+NELCO.NS                NaN  -1.196541              16.0
+TATAELXSI.NS            NaN  -5.214925              17.0
+------------------------------------------------
+Highest dividend paying stocks
+TATASTEEL.NS     0.0203
+TATAINVEST.NS    0.0155
+TATACOMM.NS      0.0116
+TATACHEM.NS      0.0107
+TCS.NS           0.0079
+TATACOFFEE.NS    0.0067
+TATAPOWER.NS     0.0063
+TATASTLLP.NS     0.0061
+TATACONSUM.NS    0.0049
+TATAMETALI.NS    0.0042
+VOLTAS.NS        0.0041
+TATAELXSI.NS     0.0036
+INDHOTEL.NS      0.0018
+TITAN.NS         0.0016
+NELCO.NS         0.0015
+TRENT.NS         0.0005
+TATAMOTORS.NS       NaN
+Name: DivYield, dtype: float64
+------------------------------------------------
+Magic Formula and Dividend Yield combined
+               EarningYield        ROC  DivYield  CombinedRank
+TATACOMM.NS        0.051775   0.704819    0.0116           1.0
+TATASTEEL.NS       0.125402   0.243347    0.0203           2.0
+TATACOFFEE.NS      0.064441   5.768529    0.0067           3.0
+TATAINVEST.NS      0.018281  59.323056    0.0155           4.0
+TATACHEM.NS        0.029724   0.338693    0.0107           5.0
+TATAPOWER.NS       0.042445   0.190762    0.0063           6.0
+TCS.NS             0.033312  -3.464525    0.0079           7.0
+VOLTAS.NS          0.017438  -0.217909    0.0041           8.0
+TATACONSUM.NS      0.016856  -0.995942    0.0049           9.0
+INDHOTEL.NS       -0.021944  -0.145139    0.0018          10.0
+TRENT.NS          -0.001892  -0.034549    0.0005          11.0
+TITAN.NS           0.006315  -0.305893    0.0016          12.0
+TATAMOTORS.NS      0.050333  -0.157166       NaN           NaN
+TATASTLLP.NS            NaN   0.335065    0.0061           NaN
+NELCO.NS                NaN  -1.196541    0.0015           NaN
+TATAMETALI.NS           NaN   0.551383    0.0042           NaN
+TATAELXSI.NS            NaN  -5.214925    0.0036           NaN
